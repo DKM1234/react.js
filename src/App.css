@@ -1,0 +1,209 @@
+.App, * {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+.nopage{
+  width: 65vh;
+}
+
+@media only screen and (max-width: 600px) {
+  .nopage{
+    width: 35vh;
+  }
+}
+
+/* .................Map css................. */
+
+.map-container {
+  width: 100%;
+  height: 400px;
+}
+
+/* .............................. */
+.autowrite-text {
+  color: green;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+
+/* ................................. */
+
+
+/* .................Footer css start................ */
+/* .footer{
+  background-color: rgb(133, 165, 239);
+  color: white;
+  position: absolute;
+  top: 92vh;
+  width: 100%;
+  text-align: center;
+}                      */
+
+
+.footer {
+  /* background-color: rgb(133, 165, 239);
+  color: white;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  height: 37px; */
+  background-color: rgb(133, 165, 239);
+  color: white;
+  padding: 5px;
+  text-align: center;
+  width: 100%;
+}
+
+.links{
+  color: #fff;
+  text-decoration: none;
+}
+
+/* .................Footer css end................ */
+/* ................courser css............. */
+
+.carousel-image {
+  min-height: 500px;
+  max-height: 500px; /* Adjust the height as needed */
+}
+/* DarkVariantExample.css */
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: green; 
+}
+
+@media only screen and (max-width: 600px) {
+  .carousel-image {
+    min-height: 250px;
+    max-height: 250px; /* Adjust the height as needed */
+  }
+  .hide{
+    display: none;
+  }
+}
+
+
+
+/* ................courser css............. */
+
+/* ...............Video Module............ */
+
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+}
+
+.centered-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.close-icon {
+  position: absolute;
+  top: 0;
+  right: 19px;
+  cursor: pointer;
+  color: #fff;
+}
+
+/* @media (max-width: 768px) { 
+  .video-container {
+    padding-bottom: 0;
+  }
+  
+  .centered-video {
+    position: static;
+    width: 700%;
+    height: auto;
+  }
+  .video-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%; 
+  }
+} */
+
+@media (max-width: 768px) {
+  .video-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  }
+
+  .centered-video {
+    position: absolute;
+    /* top: 50%;
+    left: 50%; */
+    left: -44px;
+    top: -166px;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: auto;
+  }
+
+  .video-container.playing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0;
+    height: 100%;
+  }
+  .close-icon {
+    position: absolute;
+    top: -261px;
+    right: -90px;
+  }
+  
+}
+
+
+
+/* ...............Video Module............ */
+
+.text-render{
+  background-color: #7be19f;
+  color: green;
+}
+
+
+
+/* Add any additional styling for different screen sizes */
+
+/* .............round.............. */
+.spinner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+/* .............round.............. */
+
+/* ..........new home slider........... */
+
+/* ..........new home slider........... */
